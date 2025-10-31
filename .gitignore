@@ -1,0 +1,74 @@
+# ----------------------------------------------------------------
+# Intel Quartus Prime / Altera FPGA Project .gitignore
+# ----------------------------------------------------------------
+#
+# Ignores generated output files, reports, databases, and temporary files
+# Keeps essential project files: .qpf, .qsf, .sdc, and HDL sources (.vhd, .v)
+
+# === Output Files ===
+# Directory for compiled output, databases, and reports
+output_files/
+
+# === Quartus Database ===
+# Main database directory
+db/
+
+# Incremental synthesis database
+incremental_db/
+
+# === Simulation Files ===
+# ModelSim simulation work directory
+simulation/
+*.wlf
+transcript
+
+# === Reports ===
+# Timing, fitting, and analysis reports
+*.rpt
+*.summary
+*.htm
+*.html
+*.txt
+*.log
+*.jdi
+*.sopcinfo
+*.qws
+
+# === Temporary & Backup Files ===
+# Quartus-generated temporary files
+*.bak
+*.tmp
+*.qws.bak
+*.atm
+*.pre
+*.qpg
+*.ccl
+*.syn
+*.eqn
+*.pin
+*.pof
+*.sof
+*.rbf
+*.ttf
+*.cdf
+*.srf
+*.ldf
+*.dpf
+*.psp
+*.cmp
+
+# === IP & Megawizard ===
+# Generated IP core files (keep the original .ip or .qip)
+*_bb.v
+*_bb.vhd
+*.vho
+*.c
+*.h
+*.cpp
+*.hpp
+
+# IP component and synthesis variation files
+*/synth/
+*.qip
+*.sip
+*_sim
